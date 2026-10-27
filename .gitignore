@@ -1,0 +1,61 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Dependencies
+node_modules/
+
+# Build output and tooling caches
+dist/
+build/
+.vite/
+.next/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local operating-system/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local temporary and test output
+*.tmp
+*.temp
+
+
+
+# Google Cloud and Firebase credentials
+application_default_credentials.json
+client_secret*.json
+service-account*.json
+firebase-adminsdk*.json
+*-service-account*.json
+*.pem
+*.key
+
+# Local credential folders
+credentials/
+secrets/
+
+
+
+# Google Cloud and Firebase credentials
+application_default_credentials.json
+client_secret*.json
+service-account*.json
+firebase-adminsdk*.json
+*-service-account*.json
+*.pem
+*.key
+
+# Local credential and test files
+credentials/
+secrets/
